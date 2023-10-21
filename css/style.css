@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: auto;
+    width: auto;
+}
+
+.wrapper {
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 57px;
+    background-color: rgb(20, 18, 18);
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    justify-content: space-evenly;
+}
+
+.navbar .logo {
+    width: 200px;
+    height: 57px;
+    padding: 8px 24px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.navbar .nav-item {
+    width: 999px;
+    height: 57px;
+    background-color: rgb(20, 18, 18);
+
+}
+
+.nav-item ul {
+    display: block;
+    padding: 12px 16px;
+}
+
+.nav-item ul li {
+    display: inline;
+    margin: 12px;
+    padding: 18px 18px;
+    margin: 25px;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    text-align: none;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+}
+
+.nav-item ul li:hover {
+    background-color: #FF1493;
+}
+
+/* our css start */
+.our {
+    width: auto;
+    height: 920px;
+    background-image: url(../images/our-background.jpg);
+    background-size: cover;
+    opacity: 0.95;
+    display: flex;
+    background-color: blue;
+}
+
+.our-content {
+    width: 45%;
+    height: 800px;
+}
+
+.content {
+    width: 500px;
+    height: 400px;
+    margin: 30% auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.content h3 {
+    font-size: 22px;
+}
+
+.content h1 {
+    font-size: 70px;
+}
+
+.content h2 {
+    font-size: 28px;
+}
+
+.content button {
+    border: none;
+    margin-top: 12px;
+    padding: 10px 15px;
+    font-size: 24px;
+    background-color: #FF1493;
+    color: #fff;
+}
+
+.our-image {
+    width: 40%;
+    height: 800px;
+    margin-left: 150px;
+}
+
+.set-image {
+    width: 80%;
+    height: 800px;
+    background-image: url(../images/our-image-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+/* about css start */
+.about-container {
+    width: auto;
+    height: 860px;
+    background-color: #fff;
+}
+
+.about-heading,
+.skill-heading {
+    width: auto;
+    height: 184px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-heading h2 {
+    font-size: 75px;
+
+}
+
+.about-heading span {
+    font-size: 32px;
+}
+
+.about-all {
+    width: 1475px;
+    height: 500px;
+    margin: 88px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-image {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    background-image: url(../images/about-image.jpeg);
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.about-sms {
+    width: 800px;
+    height: 350px;
+    margin-top: 70px;
+}
+
+.about-sms h1 {
+    padding: 16px 20px;
+}
+
+.about-sms p {
+    font-size: 22px;
+    padding: 16px 20px;
+    text-align: justify;
+}
+
+.about-sms button {
+    border: none;
+    margin-top: 12px;
+    padding: 10px 15px;
+    font-size: 24px;
+    background-color: #FF1493;
+    color: #fff;
+    margin: 16px;
+}
+
+/* service css start */
+
+.service,
+.team,
+.skill {
+    width: auto;
+    height: 720px;
+    background-color: rgb(20, 18, 18);
+}
+
+.service-container {
+    width: 1475px;
+    height: 500px;
+    margin: 0 auto 175px auto;
+    display: flex;
+    position: relative;
+    top: 0;
+    justify-content: space-evenly;
+}
+
+.service1 {
+    width: 400px;
+    height: 350px;
+    margin-top: 60px;
+    background: rgb(32, 31, 31);
+    opacity: 0.95;
+    color: #FF1493;
+}
+
+.service1:hover {
+    background: #FF1493;
+    color: #fff;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.service-icon i {
+    font-size: 48px;
+    padding: 18px;
+    text-align: center;
+}
+
+.service1 h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.service1 p {
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    color: #fff
+}
+
+/* skills start */
+.skill-container,
+.contact-container {
+    width: 1575px;
+    height: 450px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skil,
+.my-team {
+    width: 750px;
+    height: 450px;
+    padding: 12px;
+
+}
+
+.skill-content h1,
+p {
+    font-size: 32px;
+    padding: 14px;
+    text-align: justify;
+}
+
+.skill-content button {
+    border: none;
+    margin-top: 12px;
+    padding: 10px 15px;
+    font-size: 24px;
+    background-color: #FF1493;
+    color: #fff;
+    margin: 16px;
+}
+
+.skill-ratio input[type=range] {
+    width: 700px;
+    padding: 10px;
+}
+
+.skill-ratio span {
+    font-size: 24px;
+}
+
+/* team css */
+.team-member {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: green;
+    border-radius: 50%;
+    border: 4px solid #FF1493;
+}
+
+.my-team h1 {
+    padding: 10px;
+}
+
+.my-team input {
+    width: 45%;
+    padding: 10px;
+    outline: none;
+    border: 2px solid gray;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.my-team textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.my-team button {
+    border: none;
+    margin-top: 12px;
+    padding: 10px 10px;
+    font-size: 24px;
+    background-color: #FF1493;
+    color: #fff;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
